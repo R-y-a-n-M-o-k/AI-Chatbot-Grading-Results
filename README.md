@@ -2,6 +2,8 @@
 
 This is a collection of the physics problems, mark scheme, results and responses gathered in an investigation of test how well large language models would be able to grade undergraduate physics solutions. We do this through testing how well LLM-based AI chatbots are able to grade physics solutions and compare them to human graders. The following LLMs are tested: GPT-4, GPT-4o, Gemini 1.5 Pro, Claude 3.5 Sonnet. All responses, problems and mark scheme are written and input in LaTeX. 
 
+Code related to the analysis of data and plots can be found [here](https://github.com/faraazakhtar185/LLM_Grader_Analysis.git).
+
 In this repository, you can find 4 different contents:
 
 1. Physics problem dataset and mark scheme
