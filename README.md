@@ -13,7 +13,7 @@ In this repository, you can find 4 different contents:
 5. Prompts used for grading
 
 ## Physics Problem Dataset + Mark Scheme
-The problem data set consists of 30 questions in three topics (Classical Mechanics - CM, Quantum Mechanics - QM, Electromagnetic Theory - EM). These are used to generate solutions and grade the solutions. Both AI and Human graders use the mark scheme when grading. Some problems have a corresponding figure which are also included here. 
+The problem data set consists of 30 questions in three topics (Classical Mechanics - CM, Quantum Mechanics - QM, Electromagnetic Theory - EM). These are used to generate solutions and grade the solutions. Both AI and Human graders use the mark scheme when grading. Some problems have a corresponding figure which are also included here. For convenience and to keep track of results for each physics problem during grading, we index a physics problem in each topic by question number, for instance EM Q7. The labeling is given by the question data set PDF and is used for many subsequent TeX files.
 
 ## Generated GPT-4 Solutions
 GPT-4 was asked to generate 90 solutions to the physics problems in the dataset - 3 solutions for each problem. The solutions stored are given in their LaTeX forms, they are also sorted by topic.
@@ -22,7 +22,7 @@ GPT-4 was asked to generate 90 solutions to the physics problems in the dataset 
 Each TeX file stores the responses of LLMs to grading prompts. This includes the marks given to each solution. The responses are sorted by the LLM model, grading zero-shot or with a mark scheme, and the physics topic being graded (CM, QM, EM).
 
 ## Human Grading
-Contained are spreadsheets showing the marks assigned by human graders to each of the generated solutions. Graders have been anonymized.
+Contained are spreadsheets showing the marks assigned by human graders to each of the generated solutions. Graders have been anonymised.
 
 ## Grading Prompts
 These are the raw prompts used and input into each AI chatbot which gives instructions for grading solutions. For physics problems which have a corresponding figure, the figure is also input with the corresponding grading prompt.
